@@ -9,8 +9,8 @@ var Contact = React.createClass({
 					<img className={'contact_image'} src={'http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico'}/>
 				</figure>
 	            <div className={'col-12 col-sm-7 col-md-9 col-lg-9 col-xl-9'}>
-	                <a className={'contact_label'}>Imię: {this.props.item.firstName}</a>
-	                <a className={'contact_label'}>Nazwisko: {this.props.item.lastName}</a>
+	                <p className={'contact_label'}>Imię: {this.props.item.firstName}</a>
+	                <p className={'contact_label'}>Nazwisko: {this.props.item.lastName}</a>
 	                <a className={'contact_email'}
 	                 	 href={'mailto' + this.props.item.email}>Email: {this.props.item.email}
 	                </a>
